@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bai Jamjuree', sans-serif; }
+
+.container header {
+  background-image: url("/src/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .container header h1 {
+    color: #4c545d;
+    margin: 1rem 0; }
+  .container header p {
+    color: #9fabb2;
+    text-align: center; }
+  .container header .header-button {
+    padding: 1rem; }
+    .container header .header-button button {
+      outline: none;
+      border: none;
+      padding: .5rem 1rem;
+      border-radius: 30px;
+      box-shadow: 5px 10px 18px #ccc;
+      cursor: pointer; }
+    .container header .header-button .ios-button {
+      background: #26baa4;
+      color: #fff;
+      margin-right: 1rem; }
+    .container header .header-button .mac-button {
+      background: #6173ff;
+      color: #fff; }
+
+.container section {
+  text-align: center;
+  padding: 5rem 0; }
+  .container section h1 {
+    color: #4c545d; }
+  .container section p {
+    color: #9fabb2;
+    margin-top: 1rem; }
+
+.container main {
+  display: flex; }
+  .container main .main-menu-wrapper {
+    display: flex;
+    flex-direction: column; }
+    .container main .main-menu-wrapper .main-menu-content {
+      padding: 2.5rem; }
+      .container main .main-menu-wrapper .main-menu-content h1 {
+        color: #4c545d; }
+      .container main .main-menu-wrapper .main-menu-content p {
+        color: #9fabb2;
+        font-size: 1rem; }
+
+.container .section-devices {
+  padding: 0; }
+
+.container .features-product-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 1rem 0; }
+  .container .features-product-wrapper .features-product-content {
+    width: 350px; }
+    .container .features-product-wrapper .features-product-content i {
+      font-size: 2rem;
+      color: #9fabb2; }
+    .container .features-product-wrapper .features-product-content h2 {
+      color: #4c545d; }
+    .container .features-product-wrapper .features-product-content p {
+      color: #9fabb2; }
+
+.container .sponsor-product-wrapper {
+  margin: 5rem 0;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+.container .clipboard-product {
+  text-align: center;
+  margin: 5rem 0; }
+  .container .clipboard-product h1 {
+    color: #4c545d; }
+  .container .clipboard-product p {
+    margin: 1rem;
+    color: #9fabb2; }
+  .container .clipboard-product button {
+    outline: none;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    box-shadow: 5px 10px 18px #ccc;
+    cursor: pointer; }
+  .container .clipboard-product .ios-button {
+    background: #26baa4;
+    color: #fff;
+    margin-right: 1rem; }
+  .container .clipboard-product .mac-button {
+    background: #6173ff;
+    color: #fff; }
+
+.container footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  color: #9fabb2;
+  background-color: silver; }
+  .container footer .footer-image {
+    flex: 1;
+    text-align: center; }
+    .container footer .footer-image img {
+      height: 50px;
+      width: 50px; }
+  .container footer .footer-menu {
+    flex: 1;
+    margin: auto; }
+    .container footer .footer-menu ul {
+      padding: 1rem 0;
+      height: 100px;
+      width: 200px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between; }
+      .container footer .footer-menu ul li {
+        list-style: none; }
+        .container footer .footer-menu ul li a {
+          text-decoration: none;
+          color: #4c545d; }
+  .container footer .footer-social-media {
+    color: red;
+    flex: 1;
+    text-align: center; }

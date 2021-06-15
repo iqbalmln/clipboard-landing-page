@@ -1,0 +1,189 @@
+// Primary Color
+$Strong-Cyan: hsl(171, 66%, 44%);
+$Light-Blue: hsl(233, 100%, 69%);
+
+// Neutral
+$Dark-Grayish-Blue: hsl(210, 10%, 33%);
+$Grayish-Blue: hsl(201, 11%, 66%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.container {
+    header {
+        background-image: url('/src/images/bg-header-desktop.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            color: $Dark-Grayish-Blue;
+            margin: 1rem 0;
+        }
+        p {
+            color: $Grayish-Blue;
+            text-align: center;
+        }
+
+        .header-button {
+            padding: 1rem;
+
+            button {
+                outline: none;
+                border: none;
+                padding: .5rem 1rem;
+                border-radius: 30px;
+                box-shadow: 5px 10px 18px #ccc;
+                cursor: pointer;
+            }
+            .ios-button {
+                background: $Strong-Cyan;
+                color: #fff;
+                margin-right: 1rem;
+            }
+            .mac-button {
+                background: $Light-Blue;
+                color: #fff;
+            }
+        }
+    }
+
+    section {
+        text-align: center;
+        padding: 5rem 0;
+
+        h1 {
+            color: $Dark-Grayish-Blue;
+        }
+        p {
+            color: $Grayish-Blue;
+            margin-top: 1rem;
+        }
+    }
+    main {
+        display: flex;
+        .main-menu-wrapper {
+            display: flex;
+            flex-direction: column;
+            .main-menu-content {
+                padding: 2.5rem;
+                h1 {
+                    color: $Dark-Grayish-Blue;
+                }
+                p {
+                    color: $Grayish-Blue;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .section-devices {
+        padding: 0;
+    }
+    .features-product-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        margin: 1rem 0;
+        .features-product-content {
+            width: 350px;
+            i {
+                font-size: 2rem;
+                color: $Grayish-Blue;
+            }
+            h2 {
+                color: $Dark-Grayish-Blue;
+            }
+            p {
+                color: $Grayish-Blue;
+            }
+        }
+    }
+    .sponsor-product-wrapper {
+        margin: 5rem 0;
+        // border: 1px solid green;
+        padding: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .clipboard-product {
+        text-align: center;
+        margin: 5rem 0;
+        h1 {
+            color: $Dark-Grayish-Blue;
+        }
+        p {
+            margin: 1rem;
+            color: $Grayish-Blue;
+        }
+        button {
+            outline: none;
+            border: none;
+            padding: .5rem 1rem;
+            border-radius: 30px;
+            box-shadow: 5px 10px 18px #ccc;
+            cursor: pointer;
+        }
+        .ios-button {
+            background: $Strong-Cyan;
+            color: #fff;
+            margin-right: 1rem;
+        }
+        .mac-button {
+            background: $Light-Blue;
+            color: #fff;
+        }
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        color: $Grayish-Blue;
+        background-color: rgb(192, 192, 192);
+        .footer-image {
+            flex: 1;
+            text-align: center;
+            img {
+                height: 50px;
+                width: 50px;
+            }
+        }
+        .footer-menu {
+            flex: 1;
+            margin: auto;
+            ul {
+                padding: 1rem 0;
+                height: 100px;
+                width: 200px;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                li {
+                    list-style: none;
+                    a {
+                        text-decoration: none;
+                        color: $Dark-Grayish-Blue;
+                    }
+                }
+            }
+        }
+        .footer-social-media {
+            color: red;
+            flex: 1;
+            text-align: center;
+        }
+    }
+}
